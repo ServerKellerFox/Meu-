@@ -7,3 +7,5 @@ app.listen(f8080,function(error){
 
 
 app.get("/", function(req, res){res.send("Bem vindo")});
+
+app.get("/blog", function(req, res){ res.send("Bem vindo ao Blog !!")})
