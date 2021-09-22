@@ -2,6 +2,10 @@
 
 // EJS Motor de Tamplete para desenha o html
 
+//comandos --> npm install express --save
+//comandos --> npm install ejs --save 
+// as informações de bibliotecas instalar ficam no package.json
+
 const express = require("express");
 const app = express();
 
